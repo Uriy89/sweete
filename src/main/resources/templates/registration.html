@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Reg</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+Новый пользователь
+{{#message}}
+    {{message}}
+{{/message}}
+<hr>
+<form method="post" action="/registration">
+    <div><label>Имя: <input type="text" name="username"></label></div>
+    <div><label>Пароль: <input type="password" name="password"></label></div>
+    <div><input type="submit" value="Регистрация"></div>
+</form>
+</body>
+</html>
